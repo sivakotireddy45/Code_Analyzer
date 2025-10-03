@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.animate-btn {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animate-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Animated Hover Effect */
+.animate-btn {
+  transition: all 0.3s ease;
+}
+
+.animate-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Custom Button Styles */
+.custom-btn-analyze {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  border: none;
+  color: #fff;
+}
+
+.custom-btn-analyze:hover {
+  background: linear-gradient(45deg, #5f0bb3, #1b5dfc);
+}
+
+.custom-btn-optimize {
+  background: linear-gradient(45deg, #ffb347, #ffcc33);
+  border: none;
+  color: #fff;
+}
+
+.custom-btn-optimize:hover {
+  background: linear-gradient(45deg, #ffa500, #ffb300);
+}
+
+.custom-btn-explain {
+  background: linear-gradient(45deg, #43e97b, #38f9d7);
+  border: none;
+  color: #fff;
+}
+
+.custom-btn-explain:hover {
+  background: linear-gradient(45deg, #34d97b, #30e9d7);
+}
+
+
